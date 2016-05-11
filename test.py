@@ -6,3 +6,4 @@ def cur_file_dir():
     elif os.path.isfile(path):
         return os.path.dirname(path)
 print cur_file_dir()
+print cur_file_dir()
